@@ -7,7 +7,7 @@ export default function IconBack({ onPress }) {
     <View style={styles.container}>
       <TouchableOpacity style={styles.Touchable}>
         <Icon
-          name='anchor'
+          name='ArrowBack'
           type='font-awesome'
            size={24}
           color='#000'
