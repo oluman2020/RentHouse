@@ -2,16 +2,16 @@ import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { Icon } from 'react-native-elements'
 
-export default function IconBack({ onPress }) {
+export default function HeaderIcon({ onPress }) {
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.Touchable}>
+      <TouchableOpacity onPress={onPress} style={styles.Touchable}>
         <Icon
-          name='back-handler'
+          name='align-left'
           type='font-awesome'
-           size={24}
+          size={24}
           color='#000'
-          
+
         />
       </TouchableOpacity>
 
