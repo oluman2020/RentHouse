@@ -22,7 +22,7 @@ export default function IconBack({ type, onPress }){
     <View style={styles.container}>
       <TouchableOpacity onPress={onPress} style={styles.Touchable}>
         <Icon
-          name='Drwer'
+          name='chevron-left'
           type='font-awesome'
           size={24}
           color='#000'
