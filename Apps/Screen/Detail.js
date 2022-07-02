@@ -7,7 +7,7 @@ export default function Detail() {
     return (
         <View style= {{padding:10,flex:1,backgroundColor:'yellow'}}>
            <ScrollView>
-            <IconBack/>
+            <IconBack type='transparent-with-back'  />
 
 
     </ScrollView>
