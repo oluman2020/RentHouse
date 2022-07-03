@@ -12,7 +12,7 @@ import IconBack from '../Com/IconBack';
 export default function Home({navigation}) {
 
     return (
-        <SafeAreaView style={{ flex: 1, padding: 2 }}>
+        <SafeAreaView style={{ flex: 1, padding: 1 }}>
             <ScrollView showsVerticalScrollIndicator={false} >
                 <HeaderIcon />
                 <View style={styles.WrapperWelcome}>

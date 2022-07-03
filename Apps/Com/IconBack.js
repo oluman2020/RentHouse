@@ -11,7 +11,7 @@ export default function IconBack({ type, onPress }){
             name='chevron-left'
             type='font-awesome'
             size={24}
-            color='#000'
+            color='grey'
 
           />
         </TouchableOpacity>
@@ -24,8 +24,8 @@ export default function IconBack({ type, onPress }){
         <Icon
           name='chevron-left'
           type='font-awesome'
-          size={24}
-          color='#000'
+          size={20}
+          color='grey'
 
         />
       </TouchableOpacity>
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
 
   Touchable: {
-    padding: 5,
+    padding: 10,
 
   },
 
